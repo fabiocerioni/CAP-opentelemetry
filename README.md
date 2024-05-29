@@ -21,18 +21,8 @@ File or Folder | Purpose
 - cds watch
 
 ## Deploy
-- npx -p @sap/cds-dk cds build --productio
+- npx -p @sap/cds-dk cds build --production
 - mbt build -t gen --mtar mta.tar 
 - cf login
 - cf deploy gen/mta.tar
 
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.

@@ -33,7 +33,7 @@ Este proyecto está diseñado para integrarse con el **Real User Monitoring (RUM
 ## Archivos de Configuración
 
 ### Archivo `.npmrc`
-El archivo `.npmrc` contiene las credenciales necesarias para acceder al repositorio de SAP en formato Base64. Este archivo es crucial para descargar las siguientes bibliotecas específicas:
+El archivo `.npmrc` contiene las credenciales necesarias para acceder al repositorio de SAP en formato Base64. Estas credenciales se encuentran en ``https://ui.repositories.cloud.sap/www/webapp/users``. Este archivo es crucial para descargar las siguientes bibliotecas específicas:
 
 - **`@sap/fesr-to-otel-js`**  
   Ubicación:  

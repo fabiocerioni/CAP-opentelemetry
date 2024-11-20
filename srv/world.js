@@ -6,8 +6,10 @@ module.exports = async function () {
         return `Hello ${req.data.to}!`;
     });
     this.on('add', async (req) => {
-         return req.data.x + req.data.to })
+        return req.data.x + req.data.to
+    })
     this.on('bootstrap', async (req) => {
-        fesr.registerFesrEndpoint(app);})
-            
-    }
+        fesr.registerFesrEndpoint(app);
+    })
+
+}

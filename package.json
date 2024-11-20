@@ -7,10 +7,11 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
-    "@sap/xssec": "^3",
-    "express": "^4",
     "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.6.tgz",
-    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.13.tgz"
+    "@sap/opentelemetry-exporter-for-sap-cloud-logging": "0.1.1",
+    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.13.tgz",
+    "@sap/xssec": "^3",
+    "express": "^4"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
